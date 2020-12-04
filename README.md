@@ -1,6 +1,6 @@
-# Scout Laravel APM Agent
+# Scout Lumen APM Agent
 
-[![Build Status](https://travis-ci.com/scoutapp/scout-apm-laravel.svg?branch=master)](https://travis-ci.com/scoutapp/scout-apm-laravel) [![Latest Stable Version](https://poser.pugx.org/scoutapp/scout-apm-laravel/v/stable)](https://packagist.org/packages/scoutapp/scout-apm-laravel) [![License](https://poser.pugx.org/scoutapp/scout-apm-laravel/license)](https://packagist.org/packages/scoutapp/scout-apm-laravel)
+[![License](https://poser.pugx.org/scoutapp/scout-apm-laravel/license)](https://packagist.org/packages/scoutapp/scout-apm-laravel)
 
 Monitor the performance of PHP Laravel applications with Scout's PHP APM Agent.
 Detailed performance metrics and transaction traces are collected once the scout-apm package is installed and configured.
@@ -102,3 +102,6 @@ $request = ScoutApm::instrument(
     }
 );
 ```
+
+## Disclaimer
+This package is a fork from [bitlogicdev/scout-apm-laravel](https://github.com/bitlogicdev/scout-apm-laravel)
